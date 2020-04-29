@@ -37,22 +37,33 @@ MOH also issued a news release on 3 Apr, asking all Singaporeans to minimise mov
 *   ***Space Out*** ([spaceout.gov.sg](https://spaceout.gov.sg)): To check how crowded shopping centres are.
 *   ***Safe Distance @ Parks*** ([safedistparks.nparks.gov.sg](https://safedistparks.nparks.gov.sg)): To check how crowded parks near you are.
 
-## Total Defence Day Commemoration Event
+Not sure what to do for the #stayhomeforSG Challenge? Try taking on the **Total Defence 14-Day Challenge** (see infographic below and visit We Are Total Defence on [Facebook](https://https://www.facebook.com/WeAreTotalDefence/) or [Instagram](https://https://www.instagram.com/wearetotaldefence/?hl=en)).
 
-On 15 Feb, Minister for Trade and Industry Chan Chun Sing officiated at the Total Defence Day Commemoration event and witnessed the Weapon Presentation Ceremony for 296 recruits. Minister Chan highlighted how everyone must play a part to put Total Defence into action against the COVID-19 outbreak – while Singapore had done reasonably well thus far, there was certainly still room for improvement, and we must never be complacent.
 
-**\[Sources: MINDEF & MTI, 15 Feb; ST, 15-16 Feb\]**
+![](/assets/td1.png)
+![](/assets/td2.png)
+![](/assets/td3.png)
 
-![Alternative Text](images/2.png)
+## Building Resilience and Emerging Stronger
 
-**_Image: MINDEF_**
+![](/assets/Picture 5.png)
 
-**\[Source: MINDEF, 14 Feb\]**
+While COVID-19 has severely diminished global production capacities and disrupted global supply chains, in an oral reply in Parliament on 6 Apr, Minister for Trade and Industry Chan Chun Sing shared Singapore’s multi-pronged strategy to deal with the disruption: 
 
-![Alternative Text](images/3.png)![Alternative Text](images/4.png)
+*  **Stockpiling, import diversification, and local production** to ensure its food supply.  
+*  **Working with like-minded partners.** Trading lines with countries like China and South Korea remain open, and a recent agreement with six countries like Australia, Brunei and Canada ensures supply chain connectivity for goods and essential supplies. 
 
-**_images: MINDEF_**
+Deputy Prime Minister Heng Swee Keat in Parliament also said on 7 Apr that economic shocks and border closures caused by COVID-19 and the stringent measures put in place will have a big impact on Singapore’s economy. 
 
+**_"The question we should ask ourselves even now is when (the recovery) comes what sort of world it will be, and how ready Singapore will be to march forward again.”_** - 
+– DPM Heng Swee Keat in Parliament on 7 Apr 
+
+He added that Singapore’s best response now is to build resilience in our economy and society. Key measures to do that are: 
+
+*  **Two additional support packages** were announced – the S$48.4 billion Resilience Budget and S$5.1 billion Solidarity Budget. These will help viable businesses preserve their capabilities to recover and affected workers to make the best use of this downtime. 
+*  A **new Emerging Stronger Task Force** focusing on economic resilience will be set up. Chaired by Minister for Social and Family Development Desmond Lee and PSA International group chief executive Tan Chong Meng, the task force will look for ways that can help Singapore’s economy bounce back from the COVID-19 crisis and be ready to ride the wave of demand when it happens.
+
+*[Sources: CNA, 25 Mar; ST, 2 Apr; CNA & TODAY, 6 Apr; CNA, 7 Apr; CNA & ST, 8 Apr]*
 ## Community-led Initiatives
 
 There have been numerous instances of Singaporeans coming together in our fight against COVID-19.
