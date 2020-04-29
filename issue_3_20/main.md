@@ -123,4 +123,6 @@ While the SAF has put in place additional measures to maintain operational readi
 	*[Sources: CNA & MINDEF, 31 Jan; ST, 3 Apr; MINDEF & ST, 7 Apr; PIONEER, 9 Apr] *
 	
 . . . . .
-
+	
+	[If you have any feedback or suggestions, write in to us at nexus@defence.gov.sg.]
+   
