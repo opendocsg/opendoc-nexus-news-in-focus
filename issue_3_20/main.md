@@ -1,16 +1,41 @@
 
-![Alternative Text](images/1.png)
 
-# 1. Total Defence against the Coronavius disease 2019 (COVID-19)
+![](/assets/splash.png)
+# 1. Applying a Circuit Breaker to Tackle COVID-19
+On 3 Apr, strict “circuit breaker” measures were announced by Prime Minister Lee Hsien Loong and the Multi-Ministry Taskforce (MTF) to pre-empt the trend of increasing local transmission of COVID-19. The elevated set of measures was necessary because despite best efforts, there had been more than 50 new cases daily and an increasing number of locally transmitted cases. Also, several clusters in foreign worker dormitories and a nursing home have emerged.
 
-## Total Defence Day Video Message
+## Stay Home, Stay Safe
 
-In his Total Defence Day 2020 message, Minister for Defence Dr Ng Eng Hen highlighted how we must **put Total Defence into action against COVID-19**, just as we did during the SARS crisis in 2003. He emphasised the following four pillars of Total Defence:
+![](/assets/Picture 1.png)
 
-*   **Social Defence**. Practise good personal hygiene, distance ourselves from others if sick, show appreciation to our frontline workers, and help those who are infected or under quarantine.
-*   **Psychological Defence**. Prepare for ups and downs throughout this viral outbreak, and keep on with our daily lives by taking sensible precautions.
-*   **Economic Defence**. Do our part to ensure our economy continues to function, to protect jobs and livelihoods in Singapore.
-*   **Digital Defence**. Stamp out distortions, rumours, untruths, misinformation and smears (DRUMS), lest they sow discord, divide our people and weaken our will to defend Singapore.
+The measures, which will be in place from 7 Apr to 4 May, include:
+
+*   Closing most workplaces premises, except essential services or key economic sectors which are critical for local and global supply chains.
+*   Full home-based learning for schools and Institutes of Higher Learning. 
+*   Closing recreation venues, attractions and places of worship. 
+*   Barring social gatherings.
+
+MOH also issued a news release on 3 Apr, asking all Singaporeans to minimise movements and interactions in public and private places, and stay home in order to effectively slow the spread of infection. If people must go out to purchase daily necessities, essential services, or for urgent medical needs, safe distancing should be practised.  
+
+**_"Each and every one of us can, and must do our part, to keep everyone in Singapore safe from COVID-19.”_** -        
+– PM Lee Hsien Loong on 3 Apr 
+
+*[Sources: CNA, MOH & PMO, 3 Apr; ST, 10 Apr]*
+
+## Useful Resources
+**Information**
+*   ***Updates on COVID-19 Local Situation*** ([moh.gov.sg/covid-19](https://moh.gov.sg/covid-19)): For the latest updates and advisories. 
+*   ***COVID-19 Situation Dashboard*** ([go.gov.sg/covid-19-dashboard](https://go.gov.sg/covid-19-dashboard)): For a consolidated and official view of the Singapore COVID-19 situation. 
+*   ***Gov.sg WhatsApp*** ([go.gov.sg/whatsapp](https://go.gov.sg/whatsapp)) & ***Telegram*** ([t.me/govsg](https://t.me/govsg)): For the latest information about COVID-19, correction of fake news, and important government updates on Telegram. 
+
+**Healthcare-related**
+*  ***Singapore COVID-19 Symptom Checker***  ([sgcovidcheck.gov.sg](https://sgcovidcheck.gov.sg)): To help decide on what your next steps should be, based on symptoms experienced.
+*   ***Flu Go Where*** ([phpc.gov.sg](https://phpc.gov.sg)): To find a Public Health Preparedness Clinic (PHPC) and polyclinics near you. 
+
+**Safe distancing and contact tracing **
+*  ***TraceTogether*** ([tracetogether.gov.sg](https://tracetogether.gov.sg)): A community-driven contact tracing mobile application. 
+*   ***Space Out*** ([spaceout.gov.sg](https://spaceout.gov.sg)): To check how crowded shopping centres are.
+*   ***Safe Distance @ Parks*** ([safedistparks.nparks.gov.sg](https://safedistparks.nparks.gov.sg)): To check how crowded parks near you are.
 
 ## Total Defence Day Commemoration Event
 
