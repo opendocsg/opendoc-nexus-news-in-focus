@@ -44,7 +44,7 @@ Not sure what to do for the #stayhomeforSG Challenge? Try taking on the **Total 
 ![](/assets/td2.png)
 ![](/assets/td3.png)
 
-## Building Resilience and Emerging Stronger
+# 2. Building Resilience and Emerging Stronger
 
 ![](/assets/Picture 5.png)
 
@@ -64,37 +64,50 @@ He added that Singapore’s best response now is to build resilience in our econ
 *  A **new Emerging Stronger Task Force** focusing on economic resilience will be set up. Chaired by Minister for Social and Family Development Desmond Lee and PSA International group chief executive Tan Chong Meng, the task force will look for ways that can help Singapore’s economy bounce back from the COVID-19 crisis and be ready to ride the wave of demand when it happens.
 
 *[Sources: CNA, 25 Mar; ST, 2 Apr; CNA & TODAY, 6 Apr; CNA, 7 Apr; CNA & ST, 8 Apr]*
-## Community-led Initiatives
 
-There have been numerous instances of Singaporeans coming together in our fight against COVID-19.
+# 3. Unity in Adversity
 
-Here are some examples:
+In this period, there have been many instances of businesses, communities, and individuals coming together contribute to the national effort to curb the spread of COVID-19 or to look out for one another. 
 
-![Alternative Text](images/5.png)
+Here are some examples: 
 
-Close to 100 youths from the Heart of God Church (HOGC), Darul Ghufran Mosque and Khalid Mosque came together to create unique pieces of artwork for 22 frontline agencies, as a gesture of appreciation for their service and contributions.
+## 1. GoodHood.SG
 
-**\[Source: HOGC, 16 Mar\]**
+![](/assets/88096091_113327780274519_561000351801540608_o.jpg)
 
-![Alternative Text](images/6.png)
+In early February, tech entrepreneur Nigel Teo started a website ([heroes.goodhood.sg/heroes](https://heroes.goodhood.sg/heroes)) where people could **submit positive stories and messages of gratitude** for unsung heroes. On 22 Mar, he and three others also launched a mobile application [GoodHood.SG](https://https://goodhood.sg/) in hopes of building “kampung spirit” and neighbourliness. The application connects people, enabling registered and verified neighbours to share items and services, either by selling or donating them. 
 
-Volunteers and staff from the Youth Corps Singapore distributed care packages to healthcare workers in Tan Tong Seng Hospital and Singapore General Hospital on Valentine’s Day.
+*[Sources: TODAY, 11 Mar; ST, 5 Apr]*
 
-**\[Source: Youth.sg, 14 Feb\]**
+## 2. Engineering Good
 
-## Prime Minister’s Address on 12 March 2020
+![](/assets/92504196_2601217913469979_6698352693292826624_n.jpg)
 
-In Prime Minister Lee Hsien Loong’s address to the nation, he said that the situation in Singapore remained under control, and we would remain in the current high risk state for some time. We must also be prepared for a possible spike in the number of cases.
+Non-profit organisation [Engineering Good](https://https://engineeringgood.org) is **refurbishing laptops donated from Singaporeans and delivering them to students from low-income families. **
 
-*   Singapore’s strong response to COVID-19 had received international accolades. **Underlying this was the social and psychological resilience of our people**. Singaporeans had responded calmly and responsibly to the government’s direct appeals and reassurances.
+By 10 Apr, it has had more than 190 laptops donated, and over 100 requests from individuals and families wishing to receive them.
 
-*   Everyone had a part to play in this crisis, such as to keep up our guard and take practical precautions while carrying on with our daily lives.
+*[Sources: TODAY, 10 Apr]*
 
-![Alternative Text](images/7.png)
+## 3. Razer
 
-**_Image: PMO-SG_**
+![](/assets/91912887_3070863412933332_3020621362218663936_o.jpg)
 
-**\[Sources: PMO-SG, ST & CNA, 12 Mar\]**
+Gaming company [Razer](https://https://www.razer.com/sg-en) has **donated masks** to the National Council of Social Service (NCSS) and Bizlink, a non-profit organisation that provides employment services for people with disabilities. 
+
+*Razer* had also announced on 1 Apr plans to set up an **automated face mask manufacturing line in Singapore** within 30 days. It had initially converted existing product manufacturing lines in China to supply masks. 
+
+*[Source: FB/Bizlink Centre, 30 Mar; CNA, 1 Apr; FB/Desmond Lee, 2 Apr]*
+
+## 4. Meiko Tailor
+
+![](/assets/91912887_3070863412933332_3020621362218663936_o.jpg)
+
+Gaming company [Razer](https://https://www.razer.com/sg-en) has **donated masks** to the National Council of Social Service (NCSS) and Bizlink, a non-profit organisation that provides employment services for people with disabilities. 
+
+*Razer* had also announced on 1 Apr plans to set up an **automated face mask manufacturing line in Singapore** within 30 days. It had initially converted existing product manufacturing lines in China to supply masks. 
+
+*[Source: FB/Bizlink Centre, 30 Mar; CNA, 1 Apr; FB/Desmond Lee, 2 Apr]*
 
 ## Securing Our Supply Chains and Stockpiles
 
