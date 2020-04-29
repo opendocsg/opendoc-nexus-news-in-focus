@@ -120,7 +120,7 @@ While the SAF has put in place additional measures to maintain operational readi
 *  Parts of Bedok Camp II and Jurong Camp II which were unused and not required for any operational activities have been released to temporarily **house about 1,300 foreign workers** at Ministry of National Development’s request. They will move in progressively from 10 Apr.
 	<br>![](/assets/Picture 45.png)
  
-	*[Sources: CNA & MINDEF, 31 Jan; ST, 3 Apr; MINDEF & ST, 7 Apr; PIONEER, 9 Apr] *
+*[Sources: CNA & MINDEF, 31 Jan; ST, 3 Apr; MINDEF & ST, 7 Apr; PIONEER, 9 Apr]*
 	
 . . . . .
 	
