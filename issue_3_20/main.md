@@ -40,8 +40,8 @@ MOH also issued a news release on 3 Apr, asking all Singaporeans to minimise mov
 Not sure what to do for the #stayhomeforSG Challenge? Try taking on the **Total Defence 14-Day Challenge** (see infographic below and visit We Are Total Defence on [Facebook](https://https://www.facebook.com/WeAreTotalDefence/) or [Instagram](https://https://www.instagram.com/wearetotaldefence/?hl=en)).
 
 
-![](/assets/td1.png)
-![](/assets/td2.png)
+![](/assets/td1.png)<br>
+![](/assets/td2.png)<br>
 ![](/assets/td3.png)
 
 # 2. Building Resilience and Emerging Stronger
