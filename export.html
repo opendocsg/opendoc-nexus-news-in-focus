@@ -1,0 +1,420 @@
+<!-- layout for print export.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+  </head>
+
+  <body class="print-content">
+    <section class="description">
+      <img class="description-logo" src="./assets/logo.png">
+      <div class="description-title">Nexus News in Focus</div>
+    </section>
+
+    <div class="site-main" aria-label="Content" >
+      
+<h1 id="how-to-create-a-new-opendoc">How to create a new Opendoc</h1>
+
+<h2 id="task-list">Task List</h2>
+
+<p><strong>!!! Check that all the tasks below are completed before deployment</strong></p>
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Create new repo from this template</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Update config file (title, icon, color, order, etc…)</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Configure github webhook and secret</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Set up netlify/amplify deployment</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Set PDF Lambda env vars</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Change domain settings</li>
+</ul>
+
+<h2 id="github">Github</h2>
+
+<p>Step 1:
+Create a new repo, the name of the repo should follow the convention:</p>
+
+<p><code class="language-plaintext highlighter-rouge">opendoc-&lt;name_of_document&gt;</code></p>
+
+<p>Step 2:
+Clone the template repo onto your local machine</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/opendocsg/opendoc-template.git opendoc-&lt;name_of_document&gt;
+</code></pre></div></div>
+
+<p>Step 3: 
+Change the remote url for the repo on your local machine</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote set-url origin https://github.com/opendocsg/opendoc-&lt;name_of_document&gt;.git
+</code></pre></div></div>
+<p>or (if you’re using ssh)</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote set-url origin git@github.com:opendocsg/opendoc-&lt;name_of_document&gt;.git
+</code></pre></div></div>
+
+<p>Step 4: 
+Add your converted markdown files into the root directory of the repo</p>
+
+<p>Step 5: 
+Update the following fields in the _config.yml file:</p>
+<ul>
+  <li>title (Required)</li>
+  <li>repository (Required)</li>
+  <li>order (Optional)</li>
+  <li>google_analytics(Optional)</li>
+  <li>styling_options
+    <ul>
+      <li>primary_brand_color (Optional)</li>
+      <li>logo_path (Optional)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Step 6: 
+Commit your changes</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+git commit -m &lt;commit_message&gt;
+</code></pre></div></div>
+
+<p>Step 7:
+Push your changes to the remote branch</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push origin master
+</code></pre></div></div>
+
+<p>Step 8:
+Verify changes on Github</p>
+
+<p>Step 9:
+Setup up webhooks for</p>
+<ul>
+  <li>https://search.opendoc.sg/push</li>
+  <li>https://search-staging.opendoc.sg/push</li>
+</ul>
+
+<p>Ensure Content type is set to <code class="language-plaintext highlighter-rouge">application/json</code></p>
+
+<p>Webhook secret is found in 1Password</p>
+
+<h2 id="netlify">Netlify</h2>
+
+<p>Step 1: 
+On Netlify, click on <code class="language-plaintext highlighter-rouge">New site From Git</code></p>
+
+<p>Step 2:
+Select Github &gt; Select repository</p>
+
+<p>Step 3:
+Click on <code class="language-plaintext highlighter-rouge">Deploy Site</code></p>
+
+<p>Step 4:
+Go to <code class="language-plaintext highlighter-rouge">Domain Settings</code> &gt; click on … on the default subdomain  &gt; <code class="language-plaintext highlighter-rouge">Edit site name</code> &gt; Input new netlify site subdomain</p>
+
+<p><img src="/opendoc-nexus-news-in-focus/assets/splash.png" alt="Alternative Text" /></p>
+
+<p>What is Nexus’s News in Focus about?</p>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/1.png" alt="Alternative Text" /></p>
+
+<h1 id="1-total-defence-against-the-coronavius-disease-2019-covid-19">1. Total Defence against the Coronavius disease 2019 (COVID-19)</h1>
+
+<h2 id="total-defence-day-video-message">Total Defence Day Video Message</h2>
+
+<p>In his Total Defence Day 2020 message, Minister for Defence Dr Ng Eng Hen highlighted how we must <strong>put Total Defence into action against COVID-19</strong>, just as we did during the SARS crisis in 2003. He emphasised the following four pillars of Total Defence:</p>
+
+<ul>
+  <li><strong>Social Defence</strong>. Practise good personal hygiene, distance ourselves from others if sick, show appreciation to our frontline workers, and help those who are infected or under quarantine.</li>
+  <li><strong>Psychological Defence</strong>. Prepare for ups and downs throughout this viral outbreak, and keep on with our daily lives by taking sensible precautions.</li>
+  <li><strong>Economic Defence</strong>. Do our part to ensure our economy continues to function, to protect jobs and livelihoods in Singapore.</li>
+  <li><strong>Digital Defence</strong>. Stamp out distortions, rumours, untruths, misinformation and smears (DRUMS), lest they sow discord, divide our people and weaken our will to defend Singapore.</li>
+</ul>
+
+<h2 id="total-defence-day-commemoration-event">Total Defence Day Commemoration Event</h2>
+
+<p>On 15 Feb, Minister for Trade and Industry Chan Chun Sing officiated at the Total Defence Day Commemoration event and witnessed the Weapon Presentation Ceremony for 296 recruits. Minister Chan highlighted how everyone must play a part to put Total Defence into action against the COVID-19 outbreak – while Singapore had done reasonably well thus far, there was certainly still room for improvement, and we must never be complacent.</p>
+
+<p><strong>[Sources: MINDEF &amp; MTI, 15 Feb; ST, 15-16 Feb]</strong></p>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/2.png" alt="Alternative Text" /></p>
+
+<p><strong><em>Image: MINDEF</em></strong></p>
+
+<p><strong>[Source: MINDEF, 14 Feb]</strong></p>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/3.png" alt="Alternative Text" /><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/4.png" alt="Alternative Text" /></p>
+
+<p><strong><em>images: MINDEF</em></strong></p>
+
+<h2 id="community-led-initiatives">Community-led Initiatives</h2>
+
+<p>There have been numerous instances of Singaporeans coming together in our fight against COVID-19.</p>
+
+<p>Here are some examples:</p>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/5.png" alt="Alternative Text" /></p>
+
+<p>Close to 100 youths from the Heart of God Church (HOGC), Darul Ghufran Mosque and Khalid Mosque came together to create unique pieces of artwork for 22 frontline agencies, as a gesture of appreciation for their service and contributions.</p>
+
+<p><strong>[Source: HOGC, 16 Mar]</strong></p>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/6.png" alt="Alternative Text" /></p>
+
+<p>Volunteers and staff from the Youth Corps Singapore distributed care packages to healthcare workers in Tan Tong Seng Hospital and Singapore General Hospital on Valentine’s Day.</p>
+
+<p><strong>[Source: Youth.sg, 14 Feb]</strong></p>
+
+<h2 id="prime-ministers-address-on-12-march-2020">Prime Minister’s Address on 12 March 2020</h2>
+
+<p>In Prime Minister Lee Hsien Loong’s address to the nation, he said that the situation in Singapore remained under control, and we would remain in the current high risk state for some time. We must also be prepared for a possible spike in the number of cases.</p>
+
+<ul>
+  <li>
+    <p>Singapore’s strong response to COVID-19 had received international accolades. <strong>Underlying this was the social and psychological resilience of our people</strong>. Singaporeans had responded calmly and responsibly to the government’s direct appeals and reassurances.</p>
+  </li>
+  <li>
+    <p>Everyone had a part to play in this crisis, such as to keep up our guard and take practical precautions while carrying on with our daily lives.</p>
+  </li>
+</ul>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/7.png" alt="Alternative Text" /></p>
+
+<p><strong><em>Image: PMO-SG</em></strong></p>
+
+<p><strong>[Sources: PMO-SG, ST &amp; CNA, 12 Mar]</strong></p>
+
+<h2 id="securing-our-supply-chains-and-stockpiles">Securing Our Supply Chains and Stockpiles</h2>
+
+<p>In an interview with Ch8’s <em>Frontline</em> on 20 Mar, Minister for Trade and Industry Chan Chun Sing addressed the bout of panic-buying after Malaysia announced movement controls of its citizens. Minister Chan highlighted that <strong>Singapore’s stockpiles could last three to six months</strong>, and that there was no need to panic-buy. <strong>All of us could do our part by buying only what we need, being more open to substitute goods, and supporting local goods,</strong> even though they might have higher prices due to higher manpower and rental costs.</p>
+
+<p><strong>[Source: Ch8, 20 Mar]</strong></p>
+
+<p>Singapore’s supply chains remain robust. Here’s where our food supplies come from.</p>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/8.png" alt="Alternative Text" /></p>
+
+<p><strong><em>Image: SFA</em></strong></p>
+
+<h2 id="singapores-resilience-budget">Singapore’s Resilience Budget</h2>
+
+<p>Since Budget 2020, COVID-19 had escalated rapidly into a global pandemic, with severe disruptions to the global economy. As an open economy that is highly integrated with the global economy, Singapore had been deeply impacted by these global shocks.</p>
+
+<p>On 26 Mar, Deputy Prime Minister Heng Swee Keat announced a landmark <strong>$48.4bn Resilience Budget</strong> that would fund additional support measures. <strong>Together with the $6.4bn support package</strong> that was announced at Budget 2020, <strong>a total of $54.8bn</strong> – amounting to 11% of Singapore’s GDP – would be dedicated to helping us weather the COVID-19 crisis.</p>
+
+<p><strong><em>Our prudence and discipline in saving and growing our reserves give us the wherewithal to respond decisively when our nation faces extraordinary circumstances.</em></strong></p>
+
+<p>– DPM Heng during his ministerial statement on additional COVID-19 support measures</p>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/9.png" alt="Alternative Text" /></p>
+
+<p>The government had obtained President Halimah Yacob’s in-principle support to draw up to $17bn from our past reserves to fund part of this Resilience Package, given the exceptional circumstances that Singapore was in. This would mark only the second time Singapore had drawn on its national reserves, which were built up over the years through prudent spending and set aside to cater for rainy days.</p>
+
+<p>The Resilience Budget focuses on three key areas:</p>
+
+<ul>
+  <li>Save jobs, support workers, and protect livelihoods.</li>
+  <li>Help enterprises overcome immediate challenges.</li>
+  <li>Strengthen economic and social resilience so that we can emerge intact and stronger.</li>
+</ul>
+
+<p><strong>[Sources: MOF, ST &amp; CNA, 26 Mar]</strong></p>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/10.png" alt="Alternative Text" /></p>
+
+<h1 id="2-budget-2020-enhancing-our-defence-and-national-service-to-tackle-new-challenges">2. Budget 2020: Enhancing our Defence and National Service to tackle new challenges</h1>
+
+<p>At MINDEF’s Committee of Supply Debate in Parliament on 2 Mar, Minister for Defence Dr Ng Eng Hen said that <strong>Singapore and the rest of the world had entered into a less predictable phase of geopolitics</strong>. Key events – including the rise of new principal actors, evolving transatlantic alliances, and increased military spending by Asian countries – had led to our region becoming more militarised and contested.</p>
+
+<ul>
+  <li>As a small city state in an increasingly complex and volatile environment, Singapore had to watch these developments closely, preserve space for ourselves, maintain our sovereignty and pursue our national interests.</li>
+  <li>Singapore strengthened defence relations with the US, China and key partners including India and Australia. We had also stepped up efforts to work closely with ASEAN, such as through the “Our Eyes” initiative.</li>
+  <li>The SAF would be restructured with ramped-up efforts and capabilities to better tackle security threats such as terrorist, cyber and maritime attacks.**</li>
+  <li>We would continue to work towards our goal of world-class training for the Next Generation SAF, while raising, training and sustaining units to deal with both conventional and unconventional threats.</li>
+</ul>
+
+<h2 id="enhancing-the-ns-experience">Enhancing the NS Experience</h2>
+
+<p>Senior Minister of State for Defence Heng Chee How said that our people remained our greatest asset, and outlined the ways MINDEF and the SAF would continue to invest in capable national servicemen, enrich their NS experience and strengthen Singaporeans’ support for NS:</p>
+
+<ul>
+  <li>Efforts to strengthen training safety included safety audits and inspections of high-risk activities and training.</li>
+  <li>There had been more opportunities for hands-on trainings to enhance SAF medics’ response during medical emergencies.</li>
+  <li>Initiatives to enhance the NS experience throughout every serviceman’s NS journey (see infographic below):</li>
+</ul>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/11.png" alt="Alternative Text" /></p>
+
+<p><strong><em>Image: MINDEF</em></strong></p>
+
+<h2 id="strengthening-community-resilience-and-digital-defence">Strengthening Community Resilience and Digital Defence</h2>
+
+<p>Senior Minister of State for Defence Dr Mohamad Maliki Bin Osman said that Total Defence remained our best response to keep Singapore strong. Referring to the ongoing outbreak of COVID-19 as the latest test of our collective strength as a nation, Dr Maliki made the following key points:</p>
+
+<ul>
+  <li>Despite facing pressures from the economic downturn, businesses exemplified economic defence such as by implementing business continuity plans and re-training workers, which helped to build resilience in our economy.</li>
+  <li>Although fears of the virus sparked some negative behaviours, there were countless heartwarming examples of how Singaporeans displayed quiet strength and resolve to fight this crisis together.</li>
+  <li>In addition to battling the virus, we were also fighting the spread of fake news that could damage our society, erode communal trust and social cohesion.</li>
+</ul>
+
+<p><img src="/opendoc-nexus-news-in-focus/issue_2_20/images/12.png" alt="Alternative Text" /></p>
+
+<p><strong><em>All in all, Singapore can and will overcome this COVID-19 situation if Singaporeans are psychologically resilient and support the government and businesses to deal with this outbreak. We should not be easily rattled and instead, show confidence as a people. As my soldiers often say in Hokkien, “ai zai” or “be steady”.</em></strong></p>
+
+<p>– Dr Maliki on the COVID-19 situation in Singapore</p>
+
+<ul>
+  <li>Among broader efforts to increase Singaporeans’ understanding of digital threats, MINDEF/SAF partnered the National Library Board to enrich the BMT curriculum with content on cyber-attacks and information threats. BMT recruits have to complete an e-module on Digital Security in the SAF and visit the Digital Defence exhibition at the Singapore Discovery Centre.</li>
+</ul>
+
+<p><strong>[Sources: MINDEF &amp; ST, 2 Mar]</strong></p>
+
+<p><img src="/assets/splash.png" alt="" /></p>
+<h1 id="1-applying-a-circuit-breaker-to-tackle-covid-19">1. Applying a Circuit Breaker to Tackle COVID-19</h1>
+<p>On 3 Apr, strict “circuit breaker” measures were announced by Prime Minister Lee Hsien Loong and the Multi-Ministry Taskforce (MTF) to pre-empt the trend of increasing local transmission of COVID-19. The elevated set of measures was necessary because despite best efforts, there had been more than 50 new cases daily and an increasing number of locally transmitted cases. Also, several clusters in foreign worker dormitories and a nursing home have emerged.</p>
+
+<h2 id="stay-home-stay-safe">Stay Home, Stay Safe</h2>
+
+<p><img src="/assets/Picture 1.png" alt="" /></p>
+
+<p>The measures, which will be in place from 7 Apr to 4 May, include:</p>
+
+<ul>
+  <li>Closing most workplaces premises, except essential services or key economic sectors which are critical for local and global supply chains.</li>
+  <li>Full home-based learning for schools and Institutes of Higher Learning.</li>
+  <li>Closing recreation venues, attractions and places of worship.</li>
+  <li>Barring social gatherings.</li>
+</ul>
+
+<p>MOH also issued a news release on 3 Apr, asking all Singaporeans to minimise movements and interactions in public and private places, and stay home in order to effectively slow the spread of infection. If people must go out to purchase daily necessities, essential services, or for urgent medical needs, safe distancing should be practised.</p>
+
+<p><strong><em>“Each and every one of us can, and must do our part, to keep everyone in Singapore safe from COVID-19.”</em></strong> -      <br />
+– PM Lee Hsien Loong on 3 Apr</p>
+
+<p><em>[Sources: CNA, MOH &amp; PMO, 3 Apr; ST, 10 Apr]</em></p>
+
+<h2 id="useful-resources">Useful Resources</h2>
+<p><strong>Information</strong></p>
+<ul>
+  <li><strong><em>Updates on COVID-19 Local Situation</em></strong> (<a href="https://moh.gov.sg/covid-19">moh.gov.sg/covid-19</a>): For the latest updates and advisories.</li>
+  <li><strong><em>COVID-19 Situation Dashboard</em></strong> (<a href="https://go.gov.sg/covid-19-dashboard">go.gov.sg/covid-19-dashboard</a>): For a consolidated and official view of the Singapore COVID-19 situation.</li>
+  <li><strong><em>Gov.sg WhatsApp</em></strong> (<a href="https://go.gov.sg/whatsapp">go.gov.sg/whatsapp</a>) &amp; <strong><em>Telegram</em></strong> (<a href="https://t.me/govsg">t.me/govsg</a>): For the latest information about COVID-19, correction of fake news, and important government updates on Telegram.</li>
+</ul>
+
+<p><strong>Healthcare-related</strong></p>
+<ul>
+  <li><strong><em>Singapore COVID-19 Symptom Checker</em></strong>  (<a href="https://sgcovidcheck.gov.sg">sgcovidcheck.gov.sg</a>): To help decide on what your next steps should be, based on symptoms experienced.</li>
+  <li><strong><em>Flu Go Where</em></strong> (<a href="https://phpc.gov.sg">phpc.gov.sg</a>): To find a Public Health Preparedness Clinic (PHPC) and polyclinics near you.</li>
+</ul>
+
+<p>**Safe distancing and contact tracing **</p>
+<ul>
+  <li><strong><em>TraceTogether</em></strong> (<a href="https://tracetogether.gov.sg">tracetogether.gov.sg</a>): A community-driven contact tracing mobile application.</li>
+  <li><strong><em>Space Out</em></strong> (<a href="https://spaceout.gov.sg">spaceout.gov.sg</a>): To check how crowded shopping centres are.</li>
+  <li><strong><em>Safe Distance @ Parks</em></strong> (<a href="https://safedistparks.nparks.gov.sg">safedistparks.nparks.gov.sg</a>): To check how crowded parks near you are.</li>
+</ul>
+
+<p>Not sure what to do for the #stayhomeforSG Challenge? Try taking on the <strong>Total Defence 14-Day Challenge</strong> (see infographic below and visit We Are Total Defence on <a href="https://https://www.facebook.com/WeAreTotalDefence/">Facebook</a> or <a href="https://https://www.instagram.com/wearetotaldefence/?hl=en">Instagram</a>).</p>
+
+<p><img src="/assets/td1.png" alt="" /><br />
+<img src="/assets/td2.png" alt="" /><br />
+<img src="/assets/td3.png" alt="" /></p>
+
+<h1 id="2-building-resilience-and-emerging-stronger">2. Building Resilience and Emerging Stronger</h1>
+
+<p><img src="/assets/Picture 5.png" alt="" /></p>
+
+<p>While COVID-19 has severely diminished global production capacities and disrupted global supply chains, in an oral reply in Parliament on 6 Apr, Minister for Trade and Industry Chan Chun Sing shared Singapore’s multi-pronged strategy to deal with the disruption:</p>
+
+<ul>
+  <li><strong>Stockpiling, import diversification, and local production</strong> to ensure its food supply.</li>
+  <li><strong>Working with like-minded partners.</strong> Trading lines with countries like China and South Korea remain open, and a recent agreement with six countries like Australia, Brunei and Canada ensures supply chain connectivity for goods and essential supplies.</li>
+</ul>
+
+<p>Deputy Prime Minister Heng Swee Keat in Parliament also said on 7 Apr that economic shocks and border closures caused by COVID-19 and the stringent measures put in place will have a big impact on Singapore’s economy.</p>
+
+<p><strong><em>“The question we should ask ourselves even now is when (the recovery) comes what sort of world it will be, and how ready Singapore will be to march forward again.”</em></strong> - 
+– DPM Heng Swee Keat in Parliament on 7 Apr</p>
+
+<p>He added that Singapore’s best response now is to build resilience in our economy and society. Key measures to do that are:</p>
+
+<ul>
+  <li><strong>Two additional support packages</strong> were announced – the S$48.4 billion Resilience Budget and S$5.1 billion Solidarity Budget. These will help viable businesses preserve their capabilities to recover and affected workers to make the best use of this downtime.</li>
+  <li>A <strong>new Emerging Stronger Task Force</strong> focusing on economic resilience will be set up. Chaired by Minister for Social and Family Development Desmond Lee and PSA International group chief executive Tan Chong Meng, the task force will look for ways that can help Singapore’s economy bounce back from the COVID-19 crisis and be ready to ride the wave of demand when it happens.</li>
+</ul>
+
+<p><em>[Sources: CNA, 25 Mar; ST, 2 Apr; CNA &amp; TODAY, 6 Apr; CNA, 7 Apr; CNA &amp; ST, 8 Apr]</em></p>
+
+<h1 id="3-unity-in-adversity">3. Unity in Adversity</h1>
+
+<p>In this period, there have been many instances of businesses, communities, and individuals coming together contribute to the national effort to curb the spread of COVID-19 or to look out for one another.</p>
+
+<p>Here are some examples:</p>
+
+<h2 id="1-goodhoodsg">1. GoodHood.SG</h2>
+
+<p><img src="/assets/88096091_113327780274519_561000351801540608_o.jpg" alt="" /></p>
+
+<p>In early February, tech entrepreneur Nigel Teo started a website (<a href="https://heroes.goodhood.sg/heroes">heroes.goodhood.sg/heroes</a>) where people could <strong>submit positive stories and messages of gratitude</strong> for unsung heroes. On 22 Mar, he and three others also launched a mobile application <a href="https://https://goodhood.sg/">GoodHood.SG</a> in hopes of building “kampung spirit” and neighbourliness. The application connects people, enabling registered and verified neighbours to share items and services, either by selling or donating them.</p>
+
+<p><em>[Sources: TODAY, 11 Mar; ST, 5 Apr]</em></p>
+
+<h2 id="2-engineering-good">2. Engineering Good</h2>
+
+<p><img src="/assets/92504196_2601217913469979_6698352693292826624_n.jpg" alt="" /></p>
+
+<p>Non-profit organisation <a href="https://https://engineeringgood.org">Engineering Good</a> is **refurbishing laptops donated from Singaporeans and delivering them to students from low-income families. **</p>
+
+<p>By 10 Apr, it has had more than 190 laptops donated, and over 100 requests from individuals and families wishing to receive them.</p>
+
+<p><em>[Sources: TODAY, 10 Apr]</em></p>
+
+<h2 id="3-razer">3. Razer</h2>
+
+<p><img src="/assets/91912887_3070863412933332_3020621362218663936_o.jpg" alt="" /></p>
+
+<p>Gaming company <a href="https://https://www.razer.com/sg-en">Razer</a> has <strong>donated masks</strong> to the National Council of Social Service (NCSS) and Bizlink, a non-profit organisation that provides employment services for people with disabilities.</p>
+
+<p><em>Razer</em> had also announced on 1 Apr plans to set up an <strong>automated face mask manufacturing line in Singapore</strong> within 30 days. It had initially converted existing product manufacturing lines in China to supply masks.</p>
+
+<p><em>[Source: FB/Bizlink Centre, 30 Mar; CNA, 1 Apr; FB/Desmond Lee, 2 Apr]</em></p>
+
+<h2 id="4-meiko-tailor">4. Meiko Tailor</h2>
+
+<p><img src="/assets/Picture 6.png" alt="" /></p>
+
+<p>Local bespoke tailor <a href="https://https://www.facebook.com/meikotailor/">Meiko Tailor</a> has switched to <strong>making masks from fabric</strong>. Volunteers under People’s Association new movement, The Masks Sewn With Love Project, are also targeting to make 50,000 reusable masks. The masks will be given to people who need them.</p>
+
+<p><em>[Sources: ST, 5 Apr; TNP, 6 Apr; CNA &amp; ST, 8 Apr]</em></p>
+
+<h2 id="mindefsaf-support-for-covid-19-efforts">MINDEF/SAF Support for COVID-19 Efforts</h2>
+
+<p>While the SAF has put in place additional measures to maintain operational readiness amidst the COVID-19 outbreak, here are some ways MINDEF/SAF has also been supporting the national COVID-19 efforts:</p>
+<ul>
+  <li>Installed and manned <strong>temperature screening stations at the airport.</strong></li>
+  <li>More than 1,300 people from the SAF, MINDEF, and DSTA have been supporting MOH and ICA in <strong>health monitoring and contact tracing</strong>.
+<img src="/assets/ms1.png" alt="" /></li>
+  <li>On 30 and 31 Jan, 1,500 SAF personnel worked around the clock to <strong>pack 5.2 million masks</strong> into packets of four for distribution to Singapore households. Then, on short notice, more than 150 soldiers were activated to <strong>collect and deliver more than 5 million reusable masks</strong> to 89 community centres and clubs from 3 to 5 Apr. 
+<img src="/assets/Screenshot 2020-04-29 at 9.47.07 AM.png" alt="" /></li>
+  <li>The SAF Army Medical Services (AMS) is supporting the Ministry of Manpower and Ministry of Health in <strong>providing basic health screening and consultation services to foreign workers</strong> at Westlite Toh Guan Dormitory and S11 Dormitory @ Punggol. These are dormitories gazetted as isolated areas after emerging as major COVID-19 clusters.</li>
+</ul>
+<p><br /><img src="/assets/Picture ER1.png" alt="" /></p>
+<ul>
+  <li>Parts of Bedok Camp II and Jurong Camp II which were unused and not required for any operational activities have been released to temporarily <strong>house about 1,300 foreign workers</strong> at Ministry of National Development’s request. They will move in progressively from 10 Apr.
+ <br /><img src="/assets/Picture 45.png" alt="" /></li>
+</ul>
+
+<p><em>[Sources: CNA &amp; MINDEF, 31 Jan; ST, 3 Apr; MINDEF &amp; ST, 7 Apr; PIONEER, 9 Apr]</em></p>
+
+<p>. . . . .</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[If you have any feedback or suggestions, write in to us at nexus@defence.gov.sg.]
+</code></pre></div></div>
+
+
+    </div>
+  </body>
+
+</html>
